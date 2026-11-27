@@ -2,29 +2,10 @@ using System;
 using System.Diagnostics;
 namespace code
 {
-
-
-
     class Program
     {
         public static void Main()
         {
-            int[] R = {1,2,3,4,5};
-            double p=0.0;
-            for (int i=0;i<R.Length;i++)
-            {
-                p+=R[i];
-            }
-            double avg=p/R.Length;
-            Console.WriteLine(avg);
-
-            int[] array = {1,2,3,4};
-            int a=1;
-            for (int i=1;i<array.Length;i++)
-            {
-                a*=array[i];
-            }
-            Console.WriteLine(a);
             bool go = true;
             while (go)
             {
